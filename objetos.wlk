@@ -25,13 +25,13 @@ object munieco {
   method material() = vidrio
   method peso(unPeso){
     peso = unPeso
-  method peso() = peso
   }
+  method peso() = peso
 }
 
 object placa {
-  var color = 
-  var peso =
+  var color = rojo
+  var peso = 5000
   method material() = cobre
   method color(unColor){
     color = unColor

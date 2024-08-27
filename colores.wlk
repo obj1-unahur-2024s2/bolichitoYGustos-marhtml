@@ -3,7 +3,7 @@ object rojo {
 }
 
 object verde {
-  method esFuerte() = true #en metodos de consulta
+  method esFuerte() = true // en metodos de consulta
 }
 
 object celeste {
