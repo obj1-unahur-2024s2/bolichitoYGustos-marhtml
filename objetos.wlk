@@ -1,9 +1,6 @@
-object pepita {
-  var energy = 100
+import colores.*
 
-  method energy() = energy
+object remera {
 
-  method fly(minutes) {
-    energy = energy - minutes * 3
-  }
+  method color() 
 }
