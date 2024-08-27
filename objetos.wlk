@@ -20,7 +20,25 @@ object biblioteca {
 }
 
 object munieco {
+  var peso = 1000
   method color() = celeste
   method material() = vidrio
-  method peso() = 
+  method peso(unPeso){
+    peso = unPeso
+  method peso() = peso
+  }
+}
+
+object placa {
+  var color = 
+  var peso =
+  method material() = cobre
+  method color(unColor){
+    color = unColor
+  }
+  method color() = color
+  method peso(unPeso){
+    peso = unPeso
+  }
+  method peso() = peso
 }
